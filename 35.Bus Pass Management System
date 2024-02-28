@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Management System</title>
+</head>
+<body>
+
+<!-- Admin Section -->
+<section id="admin">
+    <h2>Admin</h2>
+    <form action="#" method="post">
+        <!-- Admin Login Form -->
+        <label for="adminUsername">Username:</label>
+        <input type="text" id="adminUsername" name="adminUsername" required>
+
+        <label for="adminPassword">Password:</label>
+        <input type="password" id="adminPassword" name="adminPassword" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Other Admin Functionalities -->
+    <!-- Manage student & route pass, Approve bus pass, Generate QR Code, etc. -->
+</section>
+
+<!-- User Section -->
+<section id="user">
+    <h2>User</h2>
+    <form action="#" method="post">
+        <!-- User Registration/Login Form -->
+        <label for="userUsername">Username:</label>
+        <input type="text" id="userUsername" name="userUsername" required>
+
+        <label for="userPassword">Password:</label>
+        <input type="password" id="userPassword" name="userPassword" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Other User Functionalities -->
+    <!-- Add Money, Buy Bus eTicket, Apply New/Renewal Bus Pass, Get QR Code, etc. -->
+</section>
+
+<!-- Conductor Section -->
+<section id="conductor">
+    <h2>Conductor</h2>
+    <form action="#" method="post">
+        <!-- Conductor Login Form -->
+        <label for="conductorUsername">Username:</label>
+        <input type="text" id="conductorUsername" name="conductorUsername" required>
+
+        <label for="conductorPassword">Password:</label>
+        <input type="password" id="conductorPassword" name="conductorPassword" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Other Conductor Functionalities -->
+    <!-- Scan QR, Verify Bus Pass ID, Verify Bus Ticket, Update Bus Location, etc. -->
+</section>
+
+</body>
+</html>
