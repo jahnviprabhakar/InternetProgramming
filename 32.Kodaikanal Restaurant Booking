@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodaikanal Restaurant Booking</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+
+    <!-- Admin Login -->
+    <section id="admin-login">
+        <h2>Admin Login</h2>
+        <!-- Add your login form details here -->
+    </section>
+
+    <!-- Admin Registration -->
+    <section id="admin-registration">
+        <h2>Admin Registration</h2>
+        <!-- Add your registration form details here -->
+    </section>
+
+    <!-- Room Details and Cost -->
+    <section id="room-details">
+        <h2>Suit Details and Cost</h2>
+        <!-- Add details for single room, double rooms, deluxe rooms -->
+    </section>
+
+    <!-- Rooms Availability -->
+    <section id="rooms-availability">
+        <h2>Rooms Availability</h2>
+        <!-- Add details about room availability -->
+    </section>
+
+    <!-- Online Booking System -->
+    <section id="online-booking">
+        <h2>Online Booking System</h2>
+        <!-- Add details for seasonal/non-seasonal booking system -->
+    </section>
+
+    <!-- Room Boys Availability -->
+    <section id="room-boys-availability">
+        <h2>Room Boys Availability</h2>
+        <!-- Add details about room boys availability -->
+    </section>
+
+    <!-- Customer Details -->
+    <section id="customer-details">
+        <h2>Customer Details</h2>
+        <!-- Add details about customer details -->
+    </section>
+
+</body>
+</html>
