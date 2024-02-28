@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Management System</title>
+</head>
+<body>
+
+    <h1>Bus Pass Management System</h1>
+
+    <form id="busPassForm">
+        <label for="inputString">Enter the string:</label>
+        <input type="text" id="inputString" name="inputString" required>
+        <button type="button" onclick="processInput()">Process</button>
+    </form>
+
+    <div id="resultContainer"></div>
+
+    <script>
+        function processInput() {
+            var inputString = document.getElementById('inputString').value;
+            var words = inputString.split(" ");
+            var easy = 0;
+            var hard = 0;
+
+            if (words.length === 0) {
+                document.getElementById('resultContainer').innerHTML = "False";
+            } else {
+                for (var i = 0; i < words.length; i++) {
+                    var countVowels = 0;
+                    var countConsonants = 0;
+
+                    for (var j = 0; j < words[i].length; j++) {
+                        var char = words[i][j].toLowerCase();
+                        if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+                            countVowels++;
+                        } else {
+                            countConsonants++;
+                        }
+                    }
+
+                    var wordLength = words[i].length;
+
+                    if (countVowels > countConsonants && wordLength % 2 === 0) {
+                        document.getElementById('resultContainer').innerHTML += `${words[i]}: It's Easy (Even Length)<br>`;
+                        easy++;
+                    } else if (wordLength % 2 === 0) {
+                        document.getElementById('resultContainer').innerHTML += `${words[i]}: Hard (Even Length)<br>`;
+                        hard++;
+                    } else {
+                        document.getElementById('resultContainer').innerHTML += `${words[i]}: Hard (Odd Length)<br>`;
+                        hard++;
+                    }
+                }
+
+                document.getElementById('resultContainer').innerHTML += `<br>Total Easy Words: ${easy}<br>`;
+                document.getElementById('resultContainer').innerHTML += `Total Hard Words: ${hard}<br>`;
+            }
+        }
+    </script>
+
+</body>
+</html>
