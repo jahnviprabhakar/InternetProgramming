@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garbage Management System</title>
+</head>
+<body>
+
+<!-- Administrator Login -->
+<form action="/admin-login" method="post">
+    <label for="adminUsername">Admin Username:</label>
+    <input type="text" id="adminUsername" name="adminUsername" required>
+    <label for="adminPassword">Admin Password:</label>
+    <input type="password" id="adminPassword" name="adminPassword" required>
+    <button type="submit">Login</button>
+</form>
+
+<!-- Administrator Dashboard -->
+<!-- Include forms for Create Garbage bin, Update/Delete garbage bin, Assign best route, Manage driver, View Garbage Report, View complaints from public -->
+
+<!-- General Public Registration -->
+<form action="/public-register" method="post">
+    <label for="publicUsername">Username:</label>
+    <input type="text" id="publicUsername" name="publicUsername" required>
+    <label for="publicPassword">Password:</label>
+    <input type="password" id="publicPassword" name="publicPassword" required>
+    <button type="submit">Register</button>
+</form>
+
+<!-- General Public Login -->
+<form action="/public-login" method="post">
+    <label for="publicUsername">Username:</label>
+    <input type="text" id="publicUsername" name="publicUsername" required>
+    <label for="publicPassword">Password:</label>
+    <input type="password" id="publicPassword" name="publicPassword" required>
+    <button type="submit">Login</button>
+</form>
+
+<!-- General Public Complaint Registration -->
+<form action="/register-complaint" method="post">
+    <label for="complaintText">Complaint:</label>
+    <textarea id="complaintText" name="complaintText" required></textarea>
+    <button type="submit">Submit Complaint</button>
+</form>
+
+<!-- General Public View Complaint Status -->
+<!-- Display the status of the registered complaints -->
+
+<!-- Driver Login -->
+<form action="/driver-login" method="post">
+    <label for="driverUsername">Driver Username:</label>
+    <input type="text" id="driverUsername" name="driverUsername" required>
+    <label for="driverPassword">Driver Password:</label>
+    <input type="password" id="driverPassword" name="driverPassword" required>
+    <button type="submit">Login</button>
+</form>
+
+<!-- Driver Dashboard -->
+<!-- Include forms for Check daily work updates, Choose best route, Update garbage load -->
+
+</body>
+</html>
