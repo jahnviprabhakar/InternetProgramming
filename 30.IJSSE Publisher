@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IJSSE Publisher</title>
+    <!-- Add your CSS links here for styling -->
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>IJSSE Publisher</h1>
+    <!-- Add your navigation menu here -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Journal</a></li>
+            <li><a href="#ethics">Publication Ethics</a></li>
+            <li><a href="#board">Editorial Board</a></li>
+            <li><a href="#reviewers">Reviewers</a></li>
+            <li><a href="#author">Author</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#call-for-paper">Call for Paper</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Content Section -->
+<main>
+
+    <!-- Add content for each menu item -->
+
+    <section id="home">
+        <h2>Home Page</h2>
+        <!-- Add content for the home page -->
+    </section>
+
+    <section id="about">
+        <h2>About Journal</h2>
+        <!-- Add content for the about journal section -->
+    </section>
+
+    <section id="ethics">
+        <h2>Publication Ethics</h2>
+        <!-- Add content for the publication ethics section -->
+    </section>
+
+    <section id="board">
+        <h2>Editorial Board</h2>
+        <!-- Add content for the editorial board section -->
+    </section>
+
+    <section id="reviewers">
+        <h2>Reviewers</h2>
+        <!-- Add content for the reviewers section -->
+    </section>
+
+    <section id="author">
+        <h2>Author</h2>
+        <!-- Add content for the author section -->
+    </section>
+
+    <section id="articles">
+        <h2>Articles</h2>
+        <!-- Add content for the articles section -->
+    </section>
+
+    <section id="call-for-paper">
+        <h2>Call for Paper</h2>
+        <!-- Add content for the call for paper section -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Add content for the contact us section -->
+    </section>
+
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 IJSSE Publisher. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
