@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Infotech Laptop Sales and Service</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+
+    <!-- Admin Login Form -->
+    <section>
+        <h2>Admin Login</h2>
+        <form action="/admin-login" method="post">
+            <!-- Admin login form fields -->
+            <label for="adminUsername">Username:</label>
+            <input type="text" id="adminUsername" name="adminUsername" required>
+            <label for="adminPassword">Password:</label>
+            <input type="password" id="adminPassword" name="adminPassword" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Sales Section -->
+    <section>
+        <h2>Sales</h2>
+        <!-- Laptop details form fields -->
+        <form action="/submit-sales" method="post">
+            <label for="laptopModel">Laptop Model:</label>
+            <input type="text" id="laptopModel" name="laptopModel" required>
+            <!-- Add more sales details fields here -->
+            <button type="submit">Submit Sales</button>
+        </form>
+    </section>
+
+    <!-- Services Section -->
+    <section>
+        <h2>Laptop Services</h2>
+        <!-- Laptop services information -->
+        <p>Information about laptop services goes here.</p>
+    </section>
+
+    <!-- Customer Information Section -->
+    <section>
+        <h2>Customer Information</h2>
+        <!-- Purchase/Services details form fields -->
+        <form action="/customer-info" method="post">
+            <!-- Add customer information fields here -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Laptop Rental Agreement Section -->
+    <section>
+        <h2>Laptop Rental Agreement</h2>
+        <!-- Rental agreement details form fields -->
+        <form action="/rental-agreement" method="post">
+            <!-- Add rental agreement details fields here -->
+            <button type="submit">Submit Agreement</button>
+        </form>
+    </section>
+
+    <!-- Stock Maintenance Section -->
+    <section>
+        <h2>Stock Maintenance</h2>
+        <!-- Stock maintenance information goes here -->
+    </section>
+
+</body>
+</html>
