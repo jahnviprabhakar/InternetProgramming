@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Management System</title>
+    <style>
+        /* Add your CSS styling here */
+    </style>
+</head>
+<body>
+
+<!-- Donor/User Section -->
+<div>
+    <h2>Donor/User</h2>
+    <form action="login_process.php" method="post">
+        <!-- Login Form -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <form action="register_process.php" method="post">
+        <!-- Registration Form -->
+        <!-- Include necessary fields for donor registration -->
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Include other functionalities (Post Donor info, My Donor info, Search Donor details, Search Blood bank details, Logout) as needed -->
+</div>
+
+<!-- Hospital Section -->
+<div>
+    <h2>Hospital</h2>
+    <form action="hospital_login_process.php" method="post">
+        <!-- Hospital Login Form -->
+        <label for="hospital_username">Username:</label>
+        <input type="text" id="hospital_username" name="hospital_username" required>
+        <label for="hospital_password">Password:</label>
+        <input type="password" id="hospital_password" name="hospital_password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <form action="hospital_register_process.php" method="post">
+        <!-- Hospital Registration Form -->
+        <!-- Include necessary fields for hospital registration -->
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Include other functionalities (Post Blood bank info, Update blood group status, View Blood bank details, Logout) as needed -->
+</div>
+
+</body>
+</html>
