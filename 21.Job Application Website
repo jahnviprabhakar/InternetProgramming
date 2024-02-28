@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Website</title>
+</head>
+<body>
+
+<!-- Admin Login -->
+<form action="admin_login_process.php" method="post">
+    <h2>Admin Login</h2>
+    <label for="adminUsername">Username:</label>
+    <input type="text" id="adminUsername" name="adminUsername" required>
+    <label for="adminPassword">Password:</label>
+    <input type="password" id="adminPassword" name="adminPassword" required>
+    <input type="submit" value="Login">
+</form>
+
+<!-- Director Login -->
+<form action="director_login_process.php" method="post">
+    <h2>Director Login</h2>
+    <label for="directorUsername">Username:</label>
+    <input type="text" id="directorUsername" name="directorUsername" required>
+    <label for="directorPassword">Password:</label>
+    <input type="password" id="directorPassword" name="directorPassword" required>
+    <input type="submit" value="Login">
+</form>
+
+<!-- User Login -->
+<form action="user_login_process.php" method="post">
+    <h2>User Login</h2>
+    <label for="userUsername">Username:</label>
+    <input type="text" id="userUsername" name="userUsername" required>
+    <label for="userPassword">Password:</label>
+    <input type="password" id="userPassword" name="userPassword" required>
+    <input type="submit" value="Login">
+</form>
+
+<!-- User Registration -->
+<form action="user_registration_process.php" method="post">
+    <h2>User Registration</h2>
+    <label for="userUsernameReg">Username:</label>
+    <input type="text" id="userUsernameReg" name="userUsernameReg" required>
+    <label for="userPasswordReg">Password:</label>
+    <input type="password" id="userPasswordReg" name="userPasswordReg" required>
+    <input type="submit" value="Register">
+</form>
+
+<!-- Director Registration -->
+<form action="director_registration_process.php" method="post">
+    <h2>Director Registration</h2>
+    <label for="directorUsernameReg">Username:</label>
+    <input type="text" id="directorUsernameReg" name="directorUsernameReg" required>
+    <label for="directorPasswordReg">Password:</label>
+    <input type="password" id="directorPasswordReg" name="directorPasswordReg" required>
+    <input type="submit" value="Register">
+</form>
+
+<!-- Admin Registration -->
+<form action="admin_registration_process.php" method="post">
+    <h2>Admin Registration</h2>
+    <label for="adminUsernameReg">Username:</label>
+    <input type="text" id="adminUsernameReg" name="adminUsernameReg" required>
+    <label for="adminPasswordReg">Password:</label>
+    <input type="password" id="adminPasswordReg" name="adminPasswordReg" required>
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
