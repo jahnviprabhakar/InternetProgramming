@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Squad: Penalty Collection & Management</title>
+</head>
+<body>
+
+<!-- User Section -->
+<section id="user">
+    <h2>User</h2>
+    <form action="#" method="post" id="registerForm">
+        <!-- User Registration Form -->
+        <!-- Include fields for registration like name, email, password, etc. -->
+        <!-- Make sure to add JavaScript validation for user input -->
+    </form>
+
+    <form action="#" method="post" id="loginForm">
+        <!-- User Login Form -->
+        <!-- Include fields for login like email and password -->
+    </form>
+
+    <button onclick="viewChallan()">View Challan</button>
+    <button onclick="viewCaseFiled()">View Case Filed</button>
+</section>
+
+<!-- Police Section -->
+<section id="police">
+    <h2>Police</h2>
+    <form action="#" method="post" id="policeLoginForm">
+        <!-- Police Login Form -->
+        <!-- Include fields for login like badge number and password -->
+    </form>
+
+    <p>Rules: <!-- Include rules for police --></p>
+
+    <form action="#" method="post" id="createCaseForm">
+        <!-- Police Create Case Form -->
+        <!-- Include fields for creating a case, upload proof photo -->
+    </form>
+
+    <div id="liveInformation">
+        <!-- Display live traffic report updates -->
+    </div>
+
+    <a href="googlemaplink">Google Map Traffic</a>
+</section>
+
+<!-- Admin Section -->
+<section id="admin">
+    <h2>Admin</h2>
+    <form action="#" method="post" id="adminLoginForm">
+        <!-- Admin Login Form -->
+        <!-- Include fields for login like admin username and password -->
+    </form>
+
+    <button onclick="managePoliceLogin()">Manage Police Login</button>
+    <button onclick="viewDailyReport()">View Daily Report</button>
+</section>
+
+<script>
+    function viewChallan() {
+        // Implement logic to view challan
+    }
+
+    function viewCaseFiled() {
+        // Implement logic to view case filed
+    }
+
+    function managePoliceLogin() {
+        // Implement logic to manage police login
+    }
+
+    function viewDailyReport() {
+        // Implement logic to view daily report
+    }
+</script>
+
+</body>
+</html>
