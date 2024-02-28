@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .speakers {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .speaker {
+            text-align: center;
+        }
+
+        .speaker img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .purpose {
+            text-align: center;
+        }
+
+        .register-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Event Name</h1>
+        <p>Event Date: DD/MM/YYYY</p>
+        <p>Event Venue: Venue Name</p>
+        <p>Event Schedule: Start Time - End Time</p>
+    </header>
+
+    <section class="speakers">
+        <div class="speaker">
+            <img src="speaker1.jpg" alt="Speaker 1">
+            <p>Speaker 1</p>
+            <a href="#">Speaker 1 Profile</a>
+        </div>
+        <div class="speaker">
+            <img src="speaker2.jpg" alt="Speaker 2">
+            <p>Speaker 2</p>
+            <a href="#">Speaker 2 Profile</a>
+        </div>
+        <div class="speaker">
+            <img src="speaker3.jpg" alt="Speaker 3">
+            <p>Speaker 3</p>
+            <a href="#">Speaker 3 Profile</a>
+        </div>
+    </section>
+
+    <section class="purpose">
+        <h2>Purpose of the Event</h2>
+        <p>This event aims to...</p>
+        <p>Target Audience: Who should attend this event?</p>
+    </section>
+
+    <a href="#" class="register-button">Register for the Event</a>
+
+</body>
+
+</html>
