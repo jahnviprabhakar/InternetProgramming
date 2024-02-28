@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Travel Agency</h1>
+        <!-- Add navigation links here -->
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- User Registration Form -->
+        <section id="user-registration">
+            <h2>User Registration</h2>
+            <!-- Add user registration form fields here -->
+        </section>
+
+        <!-- User Login Form -->
+        <section id="user-login">
+            <h2>User Login</h2>
+            <!-- Add user login form fields here -->
+        </section>
+
+        <!-- View Food Details -->
+        <section id="view-food-details">
+            <h2>View Food Details</h2>
+            <!-- Display food details here -->
+        </section>
+
+        <!-- View Hostel Details -->
+        <section id="view-hostel-details">
+            <h2>View Hostel Details</h2>
+            <!-- Display hostel details here -->
+        </section>
+
+        <!-- View Route Details -->
+        <section id="view-route-details">
+            <h2>View Route Details</h2>
+            <!-- Display route details here -->
+        </section>
+
+        <!-- Book Accommodation Form -->
+        <section id="book-accommodation">
+            <h2>Book Accommodation</h2>
+            <!-- Add book accommodation form fields here -->
+        </section>
+    </main>
+
+    <!-- Admin Section -->
+    <section id="admin-section">
+        <!-- Admin Login Form -->
+        <div id="admin-login">
+            <h2>Admin Login</h2>
+            <!-- Add admin login form fields here -->
+        </div>
+
+        <!-- Admin functionalities -->
+        <div id="admin-functionalities">
+            <h2>Admin Functionalities</h2>
+            <!-- Add admin functionalities and management forms here -->
+        </div>
+
+        <!-- View Booking Details -->
+        <div id="view-booking-details">
+            <h2>View Booking Details</h2>
+            <!-- Display booking details here -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+
+    <!-- Add JavaScript files and other dependencies here -->
+
+</body>
+
+</html>
