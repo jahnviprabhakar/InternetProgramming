@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ko-matha Dairy Farm</title>
+</head>
+
+<body>
+
+    <!-- Home Page -->
+    <section id="home">
+        <h1>Welcome to Ko-matha Dairy Farm</h1>
+        <!-- Add more content as needed -->
+    </section>
+
+    <!-- About Us -->
+    <section id="about-us">
+        <h2>About Us</h2>
+        <!-- Add more content as needed -->
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <!-- Add more content as needed -->
+    </section>
+
+    <!-- Administrator Detail -->
+    <section id="admin-detail">
+        <h2>Administrator Detail</h2>
+        <!-- Registration Form -->
+        <form action="/register" method="post">
+            <!-- Add registration form fields -->
+        </form>
+
+        <!-- Login Form -->
+        <form action="/login" method="post">
+            <!-- Add login form fields -->
+        </form>
+    </section>
+
+    <!-- Stock Detail -->
+    <section id="stock-detail">
+        <h2>Stock Detail</h2>
+        <!-- Stock Entry Form -->
+        <form action="/stock/entry" method="post">
+            <!-- Add stock entry form fields -->
+        </form>
+
+        <!-- Daily Report -->
+        <a href="/stock/daily-report">View Daily Report</a>
+
+        <!-- Monthly Report -->
+        <a href="/stock/monthly-report">View Monthly Report</a>
+
+        <!-- Yearly Report -->
+        <a href="/stock/yearly-report">View Yearly Report</a>
+    </section>
+
+    <!-- Customer Detail -->
+    <section id="customer-detail">
+        <h2>Customer Detail</h2>
+        <!-- Purchase Detail -->
+        <a href="/customer/purchase-detail">View Purchase Detail</a>
+
+        <!-- Customer Online Purchase Order -->
+        <a href="/customer/online-purchase-order">Place Online Purchase Order</a>
+    </section>
+
+    <!-- Milk Vendor Detail -->
+    <section id="milk-vendor-detail">
+        <h2>Milk Vendor Detail</h2>
+        <!-- Vendors Information -->
+        <a href="/milk-vendor/vendors-info">View Vendors Information</a>
+
+        <!-- Cow Detail Maintenance -->
+        <a href="/milk-vendor/cow-detail-maintenance">Maintain Cow Details</a>
+    </section>
+
+</body>
+
+</html>
