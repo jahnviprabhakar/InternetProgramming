@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Management System</title>
+    <style>
+        /* Add your CSS styling here */
+    </style>
+</head>
+<body>
+
+    <!-- Admin Login Page -->
+    <div id="admin-login">
+        <h2>Admin Login</h2>
+        <form action="admin_login_handler.php" method="post">
+            <!-- Add your login form fields here -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <!-- Admin Dashboard -->
+    <div id="admin-dashboard">
+        <h2>Welcome, Admin!</h2>
+        <!-- Add your admin functionalities here -->
+        <ul>
+            <li><a href="manage_pass.php">Manage Student & Route Pass</a></li>
+            <li><a href="manage_conductor.php">Manage Conductor Login</a></li>
+            <li><a href="approve_pass.php">Approve Bus Pass</a></li>
+            <li><a href="generate_qr.php">Generate QR Code</a></li>
+            <li><a href="create_bus.php">Create Bus Details</a></li>
+            <li><a href="create_route.php">Create Route Information</a></li>
+        </ul>
+    </div>
+
+    <!-- Add other HTML pages as needed -->
+
+</body>
+</html>
