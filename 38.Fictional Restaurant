@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Restaurant</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can create a separate CSS file for styling -->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#specials">Specials</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home">
+        <h1>Fictional Restaurant</h1>
+        <p>Welcome to a culinary journey of flavors and delight.</p>
+        <!-- Add high-quality images of the restaurant -->
+    </section>
+
+    <!-- Menu Pages -->
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-category">
+            <h3>Appetizers</h3>
+            <!-- Include detailed descriptions, pricing, and images for each dish -->
+        </div>
+        <div class="menu-category">
+            <h3>Main Courses</h3>
+            <!-- Repeat for other menu categories -->
+        </div>
+    </section>
+
+    <!-- Contact Information Page -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Visit us at [Restaurant Address]</p>
+        <!-- Embed Google Maps widget -->
+        <p>Call us at [Phone Number]</p>
+        <p>Email us at <a href="mailto:info@restaurant.com">info@restaurant.com</a></p>
+        <!-- Include a contact form -->
+    </section>
+
+    <!-- Reservation System -->
+    <section id="reservation">
+        <h2>Reservation</h2>
+        <!-- Include an online reservation system, calendar, and guest count options -->
+    </section>
+
+    <!-- About Us Page -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Experience the passion for food at Fictional Restaurant...</p>
+        <!-- Include images and bios of the chef and kitchen staff -->
+    </section>
+
+    <!-- Special Offers and Events -->
+    <section id="specials">
+        <h2>Specials and Events</h2>
+        <p>Explore our ongoing promotions and upcoming events...</p>
+        <!-- Include details of specials, happy hours, or events -->
+    </section>
+
+    <!-- Testimonials and Reviews -->
+    <section id="reviews">
+        <h2>Testimonials</h2>
+        <!-- Include snippets of customer testimonials and reviews -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fictional Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
