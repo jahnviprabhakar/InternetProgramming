@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can create a separate CSS file for styling -->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home">
+        <h1>Your Name</h1>
+        <p>Welcome to my online portfolio. I am passionate about...</p>
+        <p>Contact me at: <a href="mailto:your@email.com">your@email.com</a></p>
+    </section>
+
+    <!-- About Me Page -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a [Your Profession] with a background in [Your Field]. ...</p>
+        <p>Education: [Your Education]</p>
+        <p>Experience: [Your Work Experience]</p>
+        <p>Skills: [Your Skills]</p>
+    </section>
+
+    <!-- Portfolio Page -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of the project. Lorem ipsum dolor sit amet...</p>
+            <img src="project1.jpg" alt="Project 1 Image">
+            <a href="github-link" target="_blank">GitHub Repository</a>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+
+    <!-- Resume/CV Page -->
+    <section id="resume">
+        <h2>Resume/CV</h2>
+        <p>Download my resume <a href="resume.pdf" download>here</a>.</p>
+        <!-- Alternatively, present your resume information here -->
+    </section>
+
+    <!-- Blog Page -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Article Title 1</h3>
+            <p>Published on [Date]. Lorem ipsum dolor sit amet...</p>
+        </div>
+        <!-- Repeat for other blog posts -->
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me through the form below or via social media.</p>
+        <form action="submit_form.php" method="post">
+            <!-- Include form fields here -->
+        </form>
+        <p>Social Media: <a href="your-link" target="_blank">LinkedIn</a>, <a href="your-link" target="_blank">Twitter</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
