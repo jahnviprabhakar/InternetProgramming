@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuition Centre</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tuition Centre Announcement and Maintenance</h1>
+</header>
+
+<section>
+    <h2>Admin</h2>
+    <a href="admin_login.html">Admin Login</a>
+    <br>
+    <a href="admin_registration.html">Admin Registration</a>
+</section>
+
+<section>
+    <h2>Teachers</h2>
+    <a href="teacher_login.html">Teacher Login</a>
+    <br>
+    <a href="teacher_registration.html">Teacher Registration</a>
+</section>
+
+<section>
+    <h2>Students</h2>
+    <ul>
+        <li><a href="fees_payment.html">Fees Payment</a></li>
+        <li><a href="monthly_report.html">Monthly Report</a></li>
+        <li><a href="yearly_report.html">Yearly Report</a></li>
+        <li><a href="feedback_report.html">Feedback Report</a></li>
+    </ul>
+</section>
+
+<section>
+    <h2>Subjects</h2>
+    <p>Duration: 3 months</p>
+    <p>Fees: $300</p>
+</section>
+
+<section>
+    <h2>Tuition Availability</h2>
+    <p>Online / Offline</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Tuition Centre</p>
+</footer>
+
+</body>
+</html>
